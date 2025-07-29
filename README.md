@@ -69,7 +69,7 @@ y_pred = pipeline.predict(X_test)
 print("---Relatório de Classificação---\n", (classification_report(y_test, y_pred)))
 print("---Matrix de Confusão---\n", (confusion_matrix(y_test, y_pred)))
 ```
-![Resultado do pipeline](Resultados e Imagens/Resultados de código fonte.png) 
+![Resultado do pipeline](https://github.com/CKOArquiteto/Explainable-AI/blob/main/Resultados%20e%20Imagens/Resultados%20de%20código%20fonte.png) 
 
 
 O uso do parâmetro `class_weight='balanced'` no classificador tem por objetivo compensar possíveis desbalanceamentos entre as classes, ajustando os pesos de penalização de acordo com a frequência dos rótulos. Apesar de o modelo inicial não apresentar uma acurácia elevada, seu uso é fundamental para a próxima etapa do projeto: a explicação das previsões individuais com a técnica LIME.
