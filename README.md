@@ -106,6 +106,8 @@ fig.savefig('explicacoes cliente 10.png', bbox_inches='tight')
 plt.show()
 ```
 
+![Resultado da explicação](https://github.com/CKOArquiteto/Explainable-AI/blob/main/Resultados%20e%20Imagens/explicacoes%20cliente%2010.png)
+
 ### Interpretando o exemplo
 Para o cliente utilizado do conjunto de testes somos capazes de analizar e interpretar os dados apresentados, podendo verificar se o modelo realmente é capaz de ser confiado em decisões financeiras. A explicação gerada indicou:
 
